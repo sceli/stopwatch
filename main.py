@@ -40,6 +40,7 @@ def update_time():
 window = tkinter.Tk()
 window.title("Stopwatch")
 window.config(padx=25, pady=25)
+window.resizable(False, False)
 
 time_label = tkinter.Label(text="00:00:000", font=("Arial", 30))
 time_label.pack()
